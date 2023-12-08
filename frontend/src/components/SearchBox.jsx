@@ -30,7 +30,7 @@ const SearchBox = () => {
                 value={keyword} 
                 onChange={(e) => setKeyword(e.target.value)} 
                 className='mr-sm-2 ml-sm-5'
-                style={{ width : "600px" }}
+                style={{ width : "1000px" }}
             ></Form.Control>
             <Button variant='outline-light' type='submit' title='Search' className='p-2 mx-2' style={{ width: "80px" }}>
                 <FaSearch />
